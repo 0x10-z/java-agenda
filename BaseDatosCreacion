@@ -1,0 +1,2 @@
+create table citas(nombre varchar(30) not null, apellido varchar(30) not null, descripcion varchar(200) not null, dia int not null, mes int not null, ano int not null, hora varchar(5) not null ) engine = innodb;
+create table tiempo(minutos varchar(10) not null, dia int not null, mes int not null, ano int not null) engine = innodb;

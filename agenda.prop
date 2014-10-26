@@ -1,0 +1,11 @@
+#Fichero de Propiedades de la agenda
+#Thu Jun 13 12:33:43 CEST 2013
+
+db_create_query=create table citas(nombre varchar(30) not null, descripcion varchar(200) not null, dia int not null, mes int not null, ano int not null, hora varchar(5) not null, puntos varchar(6) not null default 0 ) engine = innodb;
+db_name=agenda
+db_host=jdbc:mysql://localhost:3306/
+db_user=root
+db_psw=0306iocio00506
+
+db_backup_url=
+
